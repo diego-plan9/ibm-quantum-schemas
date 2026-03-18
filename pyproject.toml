@@ -81,6 +81,9 @@ target-version = "py310"
 "test/unit/**/*.py" = [
     "D100",   #
 ]
+"ibm_quantum_schemas/models/**/*.py" = [
+    "F401",   # unused-import
+]
 
 [tool.ruff.lint.flake8-tidy-imports]
 ban-relative-imports = "all"
