@@ -11,3 +11,12 @@
 # that they have been altered from the originals.
 
 """Models that provide common functionality."""
+
+import warnings
+
+warnings.warn(
+    "Using ibm_quantum_schemas.models.* is deprecated and will be removed in an upcoming release."
+    "Instead use ibm_quantum_schemas.program.version_x_y directly",
+    category=DeprecationWarning,
+    stacklevel=2,
+)
