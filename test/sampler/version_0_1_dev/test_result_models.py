@@ -19,8 +19,8 @@ from datetime import datetime
 
 import numpy as np
 
-from ibm_quantum_schemas.models.ndarray_wrapper_model import NdarrayWrapperModel
-from ibm_quantum_schemas.models.sampler_v2.version_0_1_dev import (
+from ibm_quantum_schemas.common.ndarray_wrapper import NdarrayWrapperModel
+from ibm_quantum_schemas.sampler.version_0_1_dev import (
     BitArrayModel,
     BitArrayWrapperModel,
     DataBinModel,
